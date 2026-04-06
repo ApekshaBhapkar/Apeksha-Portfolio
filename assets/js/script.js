@@ -33,6 +33,22 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 
 
 /**
+ * CLOSE NAVBAR WHEN CLICK ON ANY NAVBAR LINKS
+ */
+
+const navbarLinks = document.querySelectorAll("[data-nav-link]");
+
+const closeNavbar = function () {
+  navbar.classList.remove("active");
+  overlay.classList.remove("active");
+  document.body.classList.remove("nav-active");
+}
+
+addEventOnElements(navbarLinks, "click", closeNavbar);
+
+
+
+/**
  * HEADER
  * active header when window scroll down to 100px
  */
