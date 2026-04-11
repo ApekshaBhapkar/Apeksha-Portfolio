@@ -2,609 +2,318 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Apeksha - IT Engineering Student & Developer</title>
-  <meta name="title" content="Apeksha - IT Engineering Student & Developer">
-  <meta name="description"
-    content="Apeksha Bhapkar's personal portfolio. I am a second-year B.Tech IT Engineering student.">
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero_apeksha.png">
-  <link rel="preload" as="image" href="./assets/images/Blog.svg">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apeksha Bhapkar | Portfolio</title>
+    <!-- Use Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo" style="font-size: 2.4rem; font-weight: 700; color: var(--onyx);">
-        Apeksha
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="logo" style="font-size: 2.4rem; font-weight: 700; color: var(--white);">
-            Apeksha
-          </a>
-
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
-          </li>
-
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
-          </li>
-
-          <li>
-            <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-          </li>
-
-        </ul>
-
-        <div class="wrapper">
-          <a href="mailto:apeksha@example.com" class="contact-link">apeksha@example.com</a>
-
-          <a href="tel:+911234567890" class="contact-link">+91 123 456 7890</a>
-        </div>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="section hero" id="home" aria-label="home">
-        <div class="container">
-
-          <figure class="hero-banner">
-            <img src="./assets/images/hero_apeksha.png" width="560" height="540" alt="Apeksha" class="w-100"
-              data-reveal="top">
-
-            <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="Projects Done" class="shape"
-              data-reveal="top" data-reveal-delay="0.25s">
-          </figure>
-
-          <div class="hero-content">
-
-            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
-              I'm an IT Engineering Student & Developer.
-            </h1>
-
-            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-              Hello! I'm Apeksha Bhapkar, a second-year B.Tech IT Engineering student. I'm passionate about building
-              impactful technology solutions and exploring new technologies.
-            </p>
-
-            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
-              <a href="#projects" class="btn btn-primary">See My Works</a>
-
-              <a href="#contact" class="btn btn-secondary">Contact Me</a>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-
-          <div class="wrapper">
-
-            <div data-reveal="left">
-              <h2 class="h2 section-title">What I Do?</h2>
-
-              <p class="section-text">
-                I am specialized in software development and database management. Currently pursuing my B.Tech in
-                Information Technology, I focus on creating efficient algorithms and user-centric web applications.
-              </p>
-            </div>
-
-            <ul class="progress-list" data-reveal="right">
-
-              <li class="progress-item">
-
-                <div class="label-wrapper">
-                  <p>Java Programming</p>
-
-                  <span class="span">90 %</span>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-fill" style="width: 90%; background-color: #c7b1dd"></div>
-                </div>
-
-              </li>
-
-              <li class="progress-item">
-
-                <div class="label-wrapper">
-                  <p>Web Development</p>
-
-                  <span class="span">85 %</span>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-fill" style="width: 85%; background-color: #8caeec"></div>
-                </div>
-
-              </li>
-
-              <li class="progress-item">
-
-                <div class="label-wrapper">
-                  <p>Database Management (DBMS)</p>
-
-                  <span class="span">80 %</span>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-fill" style="width: 80%; background-color: #b0d4c1"></div>
-                </div>
-
-              </li>
-
-              <li class="progress-item">
-
-                <div class="label-wrapper">
-                  <p>Data Structures & Algorithms</p>
-
-                  <span class="span">75 %</span>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-fill" style="width: 75%; background-color: #e3a6b6"></div>
-                </div>
-
-              </li>
-
+<body class="dark-mode">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">Apeksha.</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
 
-          </div>
-
-          <ul class="grid-list">
-
-            <li data-reveal="bottom">
-              <div class="about-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-sun light-icon"></i>
+                    <i class="fa-solid fa-moon dark-icon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-
-                <h3 class="h4 card-title">Software Development</h3>
-
-                <p class="card-text">
-                  Developing robust and scalable software solutions using Java, C++, and Python for various engineering
-                  problems.
-                </p>
-
-              </div>
-            </li>
-
-            <li data-reveal="bottom" data-reveal-delay="0.25s">
-              <div class="about-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
-                </div>
-
-                <h3 class="h4 card-title">Full Stack Development</h3>
-
-                <p class="card-text">
-                  Creating responsive and dynamic web applications using modern frameworks and backend technologies.
-                </p>
-
-              </div>
-            </li>
-
-            <li data-reveal="bottom" data-reveal-delay="0.5s">
-              <div class="about-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
-                    alt="web development icon">
-                </div>
-
-                <h3 class="h4 card-title">DBMS</h3>
-
-                <p class="card-text">
-                  Designing and optimizing database schemas for efficient data storage and retrieval in complex
-                  applications.
-                </p>
-
-              </div>
-            </li>
-
-            <li data-reveal="bottom" data-reveal-delay="0.75s">
-              <div class="about-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
-                </div>
-
-                <h3 class="h4 card-title">Algorithms</h3>
-
-                <p class="card-text">
-                  Implementing efficient data structures and algorithms to solve performance-critical computing tasks.
-                </p>
-
-              </div>
-            </li>
-
-          </ul>
-
+            </div>
         </div>
-      </section>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="hero-wrapper">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Apeksha Bhapkar</h1>
+                <h2 class="hero-tagline">Bridging the gap between real-world problems and innovative technical
+                    solutions.</h2>
+                <div class="typing-container">
+                    <span class="static-text">I am a </span>
+                    <span class="typing-text"></span><span class="cursor">|</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/ApekshaBhapkar" target="_blank" aria-label="GitHub"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/apeksha-bhapkar-3b2264395" target="_blank"
+                        aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:bhapkarapeksha15@gmail.com" aria-label="Email"><i
+                            class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-img-box fade-in">
+                <img src="photo.jpg" alt="Apeksha Bhapkar">
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-container fade-in">
+            <div class="about-text glass-card">
+                <p class="about-intro">I’m Apeksha Bhapkar, an IT Engineering student who enjoys turning ideas into
+                    practical solutions. I focus on understanding how systems work and building projects that are
+                    simple, efficient, and useful.
 
+                    Along with exploring software development and AI, I also work with web technologies to bring ideas
+                    to life through real-world projects.</p>
+                <div class="about-minimal-blocks">
+                    <div class="minimal-block hover-effect">
+                        <span class="block-label">Exploring</span>
+                        <strong class="block-value">AI & Emerging <br>Technologies</strong>
+                    </div>
+                    <div class="minimal-block hover-effect">
+                        <span class="block-label">Focus</span>
+                        <strong class="block-value">Software Development</strong>
+                    </div>
+                    <div class="minimal-block hover-effect">
+                        <span class="block-label">Strength</span>
+                        <strong class="block-value">Problem solving and<br> logical thinking</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Education Section -->
+    <section id="education" class="education section-padding">
+        <h2 class="section-title fade-in">Education</h2>
+        <div class="timeline fade-in">
 
-      <!-- 
-        - #PROJECT
-      -->
-
-      <section class="section project" id="projects" aria-labelledby="project-label">
-        <div class="container">
-
-          <div class="title-wrapper" data-reveal="top">
-
-            <div>
-              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
-
-              <p class="section-text">
-                Check out some of my latest projects with creative ideas.
-              </p>
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class="fa-solid fa-user-graduate"></i></div>
+                <div class="timeline-content glass-card hover-effect">
+                    <span class="date">Pursuing</span>
+                    <h3>BTech in Information Technology</h3>
+                    <h4>MMCOE, Pune</h4>
+                </div>
             </div>
 
-            <a href="#" class="btn btn-secondary">See All Projects</a>
-
-          </div>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="project-card project-card-1" style="background-color: #f8f5fb">
-
-                <div class="card-content" data-reveal="left">
-
-                  <p class="card-tag" style="color: #a07cc5">Java & MySQL</p>
-
-                  <h3 class="h3 card-title">Student Result Management System</h3>
-
-                  <p class="card-text">
-                    A comprehensive system built to manage and display student results, featuring secure login and
-                    dynamic report generation.
-                  </p>
-
-                  <a href="#" class="btn-text" style="color: #a07cc5">
-                    <span class="span">See Project</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class="fa-solid fa-award"></i></div>
+                <div class="timeline-content glass-card hover-effect">
+                    <span class="date">Aug 2022 - May 2025</span>
+                    <h3>Diploma in Computer Engineering</h3>
+                    <h4>SMDR Government Polytechnic, Dhule</h4>
+                    <p>Percentage: 91.54%</p>
                 </div>
-
-                <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
-                    class="w-100">
-                </figure>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card project-card-2" style="background-color: #f1f5fd">
-
-                <div class="card-content" data-reveal="right">
-
-                  <p class=" card-tag" style="color: #3f78e0">Web Development</p>
-
-                  <h3 class="h3 card-title">Personal Portfolio Website</h3>
-
-                  <p class="card-text">
-                    A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript to showcase
-                    engineering projects and skills.
-                  </p>
-
-                  <a href="#" class="btn-text" style="color: #3f78e0">
-                    <span class="span">See Project</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                </div>
-
-                <figure class="card-banner" data-reveal="left">
-                  <img src="./assets/images/project-2.png" width="600" height="367" loading="lazy" alt="Web Design"
-                    class="w-100">
-                </figure>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card project-card-3" style="background-color: #f5faf7">
-
-                <div class="card-content" data-reveal="left">
-
-                  <p class=" card-tag" style="color: #7cb798">Python</p>
-
-                  <h3 class="h3 card-title">Smart Inventory System</h3>
-
-                  <p class="card-text">
-                    A Python-based inventory tracking system that helps small businesses manage their stock levels
-                    efficiently.
-                  </p>
-
-                  <a href="#" class="btn-text" style="color: #7cb798">
-                    <span class="span">See Project</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                </div>
-
-                <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/project-3.png" width="600" height="367" loading="lazy" alt="Web Design"
-                    class="w-100">
-                </figure>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card project-card-4" style="background-color: #fcf4f6">
-
-                <div class="card-content" data-reveal="left">
-
-                  <p class=" card-tag" style="color: #d16b86">Java Swing</p>
-
-                  <h3 class="h3 card-title">Library Management System</h3>
-
-                  <p class="card-text">
-                    A desktop application for managing library books, member records, and loan transactions with ease.
-                  </p>
-
-                  <a href="#" class="btn-text" style="color: #d16b86">
-                    <span class="span">See Project</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                </div>
-
-                <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
-                    class="w-100">
-                </figure>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #CONTACT
-      -->
-
-      <section class="section contact" id="contact" aria-label="contact">
-        <div class="container">
-
-          <div class="contact-card">
-
-            <div class="contact-content" data-reveal="left">
-
-              <div class="card-icon">
-                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
-              </div>
-
-              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
-
-              <p class="section-text">
-                I am always open to discussing new projects, creative ideas, or opportunities to be part of your
-                visions.
-              </p>
-
             </div>
 
-            <form action="" class="contact-form" data-reveal="right">
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+                <div class="timeline-content glass-card hover-effect">
+                    <span class="date">June 2021 - March 2022</span>
+                    <h3>10th Pass</h3>
+                    <h4>Jaihind High School, Dhule</h4>
+                    <p>Percentage: 91.20%</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-              <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Name *" required class="input-field">
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <h2 class="section-title fade-in">Skills Summary</h2>
+        <div class="skills-container fade-in">
 
-                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
-              </div>
+            <div class="skill-category glass-card hover-effect">
+                <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+                <div class="tags">
+                    <span class="tag">C</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">SQL</span>
+                </div>
+            </div>
 
-              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+            <div class="skill-category glass-card hover-effect">
+                <h3><i class="fa-solid fa-wrench"></i> Tools & Technologies</h3>
+                <div class="tags">
+                    <span class="tag">MySQL</span>
+                    <span class="tag">SQLite</span>
+                    <span class="tag">Android Studio</span>
+                    <span class="tag">Excel</span>
+                    <span class="tag">PowerPoint</span>
+                </div>
+            </div>
 
-              <button type="submit" class="btn btn-secondary">Send message</button>
-
-            </form>
-
-          </div>
+            <div class="skill-category glass-card hover-effect">
+                <h3><i class="fa-solid fa-users"></i> Soft Skills</h3>
+                <div class="tags">
+                    <span class="tag">Problem Solving</span>
+                    <span class="tag">Time Management</span>
+                    <span class="tag">Communication</span>
+                    <span class="tag">Adaptability</span>
+                    <span class="tag">Team Work</span>
+                </div>
+            </div>
 
         </div>
-      </section>
+    </section>
 
-    </article>
-  </main>
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title fade-in">Projects</h2>
+        <div class="projects-grid">
 
+            <!-- Project 1 -->
+            <div class="project-card glass-card fade-in hover-effect">
+                <div class="project-img">
+                    <img src="portfolio.png" alt="Lost & Found AI">
+                </div>
+                <div class="project-content">
+                    <h3>Smart Campus Lost & Found</h3>
+                    <p class="project-desc">
+                        An AI-based matching system connecting lost and found items with location-based insights and
+                        secure claim workflows.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JS</span><span>MySQL</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/ApekshaBhapkar" target="_blank" class="btn btn-secondary btn-sm"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://campus-find-a2tj6vhj5-saburi-yeolas-projects.vercel.app"
+                            class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Demo</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Project 2 -->
+            <div class="project-card glass-card fade-in hover-effect">
+                <div class="project-img">
+                    <img src="nitin computers 2.png" alt="Electronics Shop">
+                </div>
+                <div class="project-content">
+                    <h3>Electronics Shop Website</h3>
+                    <p class="project-desc">
+                        A modern, responsive e-commerce interface designed to boost digital presence and feature
+                        structured product categories.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/ApekshaBhapkar" target="_blank" class="btn btn-secondary btn-sm"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="#" class="btn btn-primary btn-sm"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Project 3 -->
+            <div class="project-card glass-card fade-in hover-effect">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Employee Management">
+                </div>
+                <div class="project-content">
+                    <h3>Employee Management System</h3>
+                    <p class="project-desc">
+                        A robust desktop application with role-based access for efficient, scalable, and secure employee
+                        record management.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span><span>MySQL</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/ApekshaBhapkar" target="_blank" class="btn btn-secondary btn-sm"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="#" class="btn btn-primary btn-sm"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
 
+        </div>
 
-  <!-- 
-    - #FOOTER
-  -->
+        <div style="text-align: center; margin-top: 3rem;" class="fade-in">
+            <a href="projects.html" class="btn btn-primary hover-effect"
+                style="padding: 1rem 2.5rem; font-size: 1.1rem; border-radius: 30px;">
+                View All Projects <i class="fa-solid fa-arrow-right" style="margin-left: 0.5rem;"></i>
+            </a>
+        </div>
+    </section>
 
-  <footer class="footer">
-    <div class="container">
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="contact-wrapper fade-in">
+            <div class="contact-left">
+                <i class="fa-regular fa-envelope contact-icon"></i>
+                <h2 class="contact-heading">If you like what you see, let's work together.</h2>
+                <p class="contact-text">I am always open to discussing new projects, creative ideas, or opportunities to
+                    be part of your visions.</p>
+            </div>
 
-      <p class="copyright">
-        © 2024 Apeksha Bhapkar. All rights reserved.
-      </p>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/bhapkarapeksha15@gmail.com" method="POST" class="contact-form">
+                    <!-- FormSubmit configuration -->
+                    <input type="hidden" name="_subject" value="New submission from Portfolio!">
+                    <input type="hidden" name="_captcha" value="false">
 
-      <ul class="social-list">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <input type="text" name="Name" id="name" placeholder="Name *" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="Email" id="email" placeholder="Email *" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="Message" id="message" rows="5" placeholder="Message *" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-        </li>
+    <!-- Footer -->
+    <footer>
+        <p>&copy;2026 Apeksha Bhapkar. All rights reserved.</p>
+    </footer>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-dribbble"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-youtube"></ion-icon>
-          </a>
-        </li>
-
-      </ul>
-
-    </div>
-  </footer>
-
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
